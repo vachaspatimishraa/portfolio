@@ -1,0 +1,219 @@
+<!--
+Portfolio template for Vachaspati Mishra
+Instructions:
+- Replace placeholder links (GitHub, LinkedIn, live demos) with your real URLs.
+- To deploy: push this file as index.html to a GitHub Pages branch (gh-pages or main) or host on Vercel.
+- Built with Tailwind via CDN for quick use. For production, compile Tailwind locally.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vachaspati Mishra — Portfolio</title>
+  <meta name="description" content="Vachaspati Mishra — B.Tech student & full-stack developer. Projects: Multi-Perspective News App, Fake Job Fraud Detection.">
+  <!-- Tailwind CDN (for quick demo) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center text-white font-bold">VM</div>
+        <div>
+          <h1 class="text-lg font-semibold">Vachaspati Mishra</h1>
+          <p class="text-xs text-gray-500">B.Tech Student • Full‑Stack & Mobile Dev</p>
+        </div>
+      </a>
+      <nav class="space-x-4 text-sm">
+        <a href="#projects" class="hover:text-indigo-600">Projects</a>
+        <a href="#skills" class="hover:text-indigo-600">Skills</a>
+        <a href="#certs" class="hover:text-indigo-600">Certificates</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-10">
+    <!-- Hero -->
+    <section id="home" class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl sm:text-5xl font-extrabold leading-tight">Hi, I’m <span class="text-indigo-600">Vachaspati Mishra</span></h2>
+        <p class="mt-4 text-gray-600">I build intelligent applications combining AI, mobile, and web technologies. Currently pursuing B.Tech at <strong>Prayag Institute of Technology and Management (AKTU)</strong>.</p>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="mailto:vachaspatimishra@hotmail.com" class="inline-flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md shadow-sm">✉️ Email</a>
+          <a href="https://github.com/vachaspatimishraa" target="_blank" class="inline-flex items-center gap-2 border border-indigo-600 text-indigo-600 px-4 py-2 rounded-md">GitHub</a>
+          <a href="https://www.linkedin.com/in/vachaspatimishra" target="_blank" class="inline-flex items-center gap-2 border border-gray-200 px-4 py-2 rounded-md">LinkedIn</a>
+        </div>
+
+        <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div class="bg-white p-4 rounded-lg shadow-sm">
+            <p class="text-xs text-gray-500">Phone</p>
+            <p class="font-medium">808-102-5075</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-sm">
+            <p class="text-xs text-gray-500">Location</p>
+            <p class="font-medium">Mirzapur, Uttar Pradesh, India</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-sm">
+            <p class="text-xs text-gray-500">Education</p>
+            <p class="font-medium">B.Tech — AKTU</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-sm">
+            <p class="text-xs text-gray-500">Availability</p>
+            <p class="font-medium">Open to internships</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-xl shadow-md">
+        <h3 class="text-lg font-semibold">Core Strengths</h3>
+        <ul class="mt-4 space-y-3 text-gray-600">
+          <li>Full‑Stack Development (MERN)</li>
+          <li>Mobile Apps: Flutter & React Native</li>
+          <li>Machine Learning & NLP</li>
+          <li>Product-focused, hackathon experience</li>
+        </ul>
+
+        <div class="mt-6">
+          <h4 class="text-sm text-gray-500">Quick Links</h4>
+          <div class="mt-3 flex gap-3">
+            <a href="#projects" class="text-sm px-3 py-2 bg-indigo-600 text-white rounded-md">Projects</a>
+            <a href="#contact" class="text-sm px-3 py-2 border rounded-md">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="mt-12">
+      <h3 class="text-2xl font-semibold">Technical Skills</h3>
+      <p class="text-gray-600 mt-2">Languages, frameworks and tools I work with:</p>
+
+      <div class="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <h4 class="font-medium">Languages</h4>
+          <p class="text-sm text-gray-600 mt-2">C, C++, Java, Python</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <h4 class="font-medium">Web</h4>
+          <p class="text-sm text-gray-600 mt-2">HTML, CSS, React, Node.js</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <h4 class="font-medium">Mobile</h4>
+          <p class="text-sm text-gray-600 mt-2">Flutter, Android Studio, React Native</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <h4 class="font-medium">Tools</h4>
+          <p class="text-sm text-gray-600 mt-2">Git, Linux, VS Code, MongoDB</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mt-12">
+      <div class="flex items-center justify-between">
+        <h3 class="text-2xl font-semibold">Selected Projects</h3>
+      </div>
+
+      <div class="mt-6 grid gap-6 sm:grid-cols-2">
+        <!-- Project 1 -->
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <div class="flex items-start justify-between">
+            <div>
+              <h4 class="text-lg font-semibold">Multi-Perspective News Web App <span class="text-sm text-gray-400">(2025)</span></h4>
+              <p class="text-gray-600 mt-2">Aggregates news from multiple sources and presents left, right, and neutral viewpoints. Includes AI-based summarization and perspective classification.</p>
+
+              <p class="mt-3 text-sm text-gray-500"><strong>Tech:</strong> MERN, News API, OpenAI</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <a href="#" class="text-sm px-3 py-2 border rounded-md">View Repo</a>
+              <a href="#" class="text-sm px-3 py-2 bg-indigo-600 text-white rounded-md">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <div class="flex items-start justify-between">
+            <div>
+              <h4 class="text-lg font-semibold">Fake Job Fraud Detection Web App <span class="text-sm text-gray-400">(2025)</span></h4>
+              <p class="text-gray-600 mt-2">ML-powered tool to detect fraudulent job postings using NLP and classification models. Admin panel supports dataset uploads and retraining.</p>
+
+              <p class="mt-3 text-sm text-gray-500"><strong>Tech:</strong> Python, Flask, Scikit-learn</p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <a href="#" class="text-sm px-3 py-2 border rounded-md">View Repo</a>
+              <a href="#" class="text-sm px-3 py-2 bg-indigo-600 text-white rounded-md">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certs" class="mt-12">
+      <h3 class="text-2xl font-semibold">Certificates & Achievements</h3>
+      <ul class="mt-4 space-y-3 text-gray-600">
+        <li>Java Programming — Udemy</li>
+        <li>AI Tech Convolution 2025 — HCL Tech</li>
+        <li>Android with Core Java — NetCamp Solutions Pvt. Ltd.</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="mt-12 bg-white p-6 rounded-lg shadow-sm">
+      <h3 class="text-2xl font-semibold">Education</h3>
+      <div class="mt-4 text-gray-600">
+        <p><strong>B.Tech (Present)</strong> — Prayag Institute of Technology and Management (AKTU)</p>
+        <p class="mt-2"><strong>Intermediate (2022)</strong> — S.M.P.M.B Inter College, Mirzapur</p>
+        <p class="mt-2"><strong>High School (2020)</strong> — S.M.P.M.B Inter College, Mirzapur</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mt-12">
+      <h3 class="text-2xl font-semibold">Contact</h3>
+      <div class="mt-4 grid sm:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Get in touch</h4>
+          <p class="text-gray-600 mt-2">I'm open to internships and project collaborations. Reach out via email or LinkedIn.</p>
+
+          <ul class="mt-4 text-sm text-gray-700 space-y-2">
+            <li><strong>Email:</strong> <a href="mailto:vachaspatimishra@hotmail.com" class="text-indigo-600">vachaspatimishra@hotmail.com</a></li>
+            <li><strong>Phone:</strong> 808-102-5075</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vachaspatimishra" target="_blank" class="text-indigo-600">linkedin.com/in/vachaspatimishra</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/vachaspatimishraa" target="_blank" class="text-indigo-600">github.com/vachaspatimishraa</a></li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Download Resume</h4>
+          <p class="text-gray-600 mt-2">Click below to download the resume (PDF).</p>
+          <!-- Replace # with the actual resume path in your repo -->
+          <a href="#" class="mt-4 inline-block px-4 py-2 bg-indigo-600 text-white rounded-md">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t mt-12">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+      <p class="text-sm text-gray-500">© 2025 Vachaspati Mishra. Built with ❤️</p>
+      <div class="flex gap-3">
+        <a href="https://github.com/vachaspatimishraa" target="_blank" class="text-gray-500 hover:text-gray-700">GitHub</a>
+        <a href="https://www.linkedin.com/in/vachaspatimishra" target="_blank" class="text-gray-500 hover:text-gray-700">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
